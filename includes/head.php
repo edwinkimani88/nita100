@@ -3,29 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NITA @ 100 — A Century of Industrial Excellence</title>
+    <title>NITA @ 100 — A Century of Industrial Excellence (Est. 1925)</title>
 
     <!-- SEO Meta -->
-    <meta name="description" content="NITA @ 100 Centenary Celebration. Experience the luxury heritage, interactive historical timelines, and premium awards showcase of the National Industrial Training Authority (NITA) of Kenya.">
+    <meta name="description" content="NITA @ 100 Centenary Celebration. Experience the high-prestige recognition ecosystem, and premium awards showcase of the National Industrial Training Authority (NITA) of Kenya.">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&family=Great+Vibes&family=Syncopate:wght@400;700&family=Orbitron:wght@400..900&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
 
-    <!-- Tailwind CSS v3 CDN (most reliable browser approach — no build step required) -->
+    <!-- Tailwind CSS v3 CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
-              'navy-primary': '#114687',
-              'accent-red':   '#B8141F',
-              'luxury-grey':  '#6D6E71',
+              'royal-blue':   '#002366',
+              'prestige-gold':'#C5A059',
               'luxury-gold':  '#D5C2A2',
-              'deep-bg':      '#FAFAFA',
-              'dark-navy':    '#091A37',
+              'shimmer-silver':'#E2E8F0',
+              'deep-navy':    '#050C1A',
+              'accent-gold':  '#FFD700',
             },
             fontFamily: {
               'bodoni':    ['"Bodoni Moda"', '"Cormorant Garamond"', 'serif'],
@@ -46,8 +46,8 @@
             },
             keyframes: {
               glowPulse: {
-                '0%, 100%': { boxShadow: '0 0 8px rgba(184,20,31,0.4), 0 0 20px rgba(184,20,31,0.15)' },
-                '50%':      { boxShadow: '0 0 24px rgba(184,20,31,0.82), 0 0 45px rgba(184,20,31,0.5)' },
+                '0%, 100%': { boxShadow: '0 0 8px rgba(197,160,89,0.4), 0 0 20px rgba(197,160,89,0.15)' },
+                '50%':      { boxShadow: '0 0 24px rgba(197,160,89,0.82), 0 0 45px rgba(197,160,89,0.5)' },
               },
               lightSweep: {
                 '0%':       { transform: 'translateX(-150%) skewX(-25deg)' },
