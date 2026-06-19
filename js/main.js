@@ -194,33 +194,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // -------------------------------------------------------------
-    // 5. SPLIT-TEXT CHARACTER REVEAL ANIMATION (HERO)
+    // 5. Hero Reveal Sequence (Simplified)
     // -------------------------------------------------------------
-    // Traditional char-by-char split implementation to remain completely dependency-independent
-    const splitTitle = document.getElementById("hero-reveal-title");
-    if (splitTitle) {
-      const text = splitTitle.innerText.trim();
-      splitTitle.innerHTML = "";
-      
-      // Split into single inline characters
-      text.split("").forEach((char) => {
-        const span = document.createElement("span");
-        span.innerText = char === " " ? "\u00A0" : char;
-        span.style.display = "inline-block";
-        span.style.opacity = "0";
-        span.style.transform = "translateY(50px)";
-        splitTitle.appendChild(span);
-      });
-
-      gsapInstance.to(splitTitle.children, {
-        opacity: 1,
-        y: 0,
-        stagger: 0.035,
-        duration: 0.8,
-        ease: "power3.out",
-        delay: 0.3
-      });
-    }
+    gsapInstance.from("#hero-reveal-title", {
+      opacity: 0,
+      y: 30,
+      duration: 1.2,
+      ease: "power3.out",
+      delay: 0.5
+    });
 
     // Handwriting Script Reveal
     gsapInstance.fromTo("#hero-reveal-script", 

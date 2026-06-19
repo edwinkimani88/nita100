@@ -50,12 +50,14 @@
             class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-extrabold tracking-tight text-white leading-[1.08] uppercase mb-4"
             style="font-family: 'Times New Roman', Times, serif;"
           >
-            A CENTURY OF<br /><span class="text-luxury-gold">&nbsp;INDUSTRIAL EXCELLENCE</span>
+            A CENTURY OF<br />
+            INDUSTRIAL<br />
+            EXCELLENCE
           </h1>
 
           <h3
             id="hero-reveal-script"
-            class="font-cormorant text-xl sm:text-3xl italic text-prestige-gold mb-6 tracking-wide block font-semibold"
+            class="font-sans text-xl sm:text-3xl text-prestige-gold mb-6 tracking-wide block font-semibold"
           >
             A Rigorous, High-Prestige Recognition Ecosystem
           </h3>
