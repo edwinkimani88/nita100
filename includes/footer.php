@@ -76,7 +76,7 @@
       <!-- Bottom border line and standard credits -->
       <div class="container mx-auto px-6 lg:px-14 border-t border-white/5 pt-8 flex flex-col sm:flex-row justify-between items-center w-full">
         <span class="font-sans text-[10px] text-white/35 font-light uppercase tracking-wider mb-4 sm:mb-0">
-          &copy; 2025 NITA Centenary Council. All Licensing Rights Dispatched.
+          &copy; 2026 NITA Centenary Council. All Licensing Rights Dispatched.
         </span>
         <div class="flex gap-6 font-sans text-[10px] text-white/35 tracking-wider uppercase font-semibold">
           <a href="#home" class="hover:text-luxury-gold transition-colors">Privacy Audits</a>

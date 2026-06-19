@@ -156,7 +156,7 @@
                 </g>
                 <text id="text-symbol-at" class="text-at font-sans" x="134" y="50.5" font-size="6.5" font-weight="900" fill="#B8141F" text-anchor="middle" style="opacity: 0;">@</text>
 
-                <!-- LAYER 2: THE CENTENARY YEAR LABEL (1926-2025) AND "YEARS" -->
+                <!-- LAYER 2: THE CENTENARY YEAR LABEL (1926-2026) AND "YEARS" -->
                 <text id="nita-years-subtitle" x="96" y="88" font-size="9.5" font-family="var(--font-bodoni)" letter-spacing="4.5" fill="#FFFFFF" text-anchor="middle" font-weight="700" style="opacity: 0;">YEARS</text>
 
                 <!-- LAYER 3: NUMERICS - THE MASSIVE "1" AND TWO INTERLOCKING ZEROES -->
@@ -173,7 +173,7 @@
                 <path class="interlock-overlay" d="M 113,124 A 23,23 0 0,1 119,141" fill="none" stroke="url(#luxury-silver-grad)" stroke-width="7" style="opacity: 0;" />
 
                 <!-- LAYER 4: BOTTOM TIMESTAMP -->
-                <text id="nita-years-label" x="96" y="189" font-size="10" font-family="var(--font-sans)" letter-spacing="3.5" fill="#D5C2A2" font-weight="500" text-anchor="middle" style="opacity: 0;">1925 - 2025</text>
+                <text id="nita-years-label" x="96" y="189" font-size="10" font-family="var(--font-sans)" letter-spacing="3.5" fill="#D5C2A2" font-weight="500" text-anchor="middle" style="opacity: 0;">1925 - 2026</text>
 
                 <!-- Dynamic Highlight sweeps traversing over the lock -->
                 <g clip-path="url(#shine-clip-mask)">
@@ -209,7 +209,7 @@
               <!-- Location / Time Stamp -->
               <div class="mt-4 flex flex-col gap-1 items-center justify-center font-sans text-[10px] text-white/50 tracking-wider">
                 <p class="flex items-center gap-1.5 font-bold text-white/75">
-                  <span class="text-prestige-gold">&#9733;</span> THURSDAY, 30TH OCTOBER 2025
+                  <span class="text-prestige-gold">&#9733;</span> THURSDAY, 30TH OCTOBER 2026
                 </p>
                 <p class="flex items-center gap-1 uppercase">
                   <span>&#128205;</span> SAFARI PARK HOTEL, NAIROBI, KENYA
@@ -379,11 +379,11 @@
               </div>
             </div>
 
-            <!-- Cards 5: 2025 -->
+            <!-- Cards 5: 2026 -->
             <div class="w-[380px] shrink-0 flex flex-col justify-start">
               <div class="flex items-center gap-4 mb-5">
                 <span class="bg-[#114687] text-white px-5 py-2 font-display font-bold text-center rounded text-sm shadow-md">
-                  2025
+                  2026
                 </span>
                 <span class="w-2.5 h-2.5 rounded-full bg-prestige-gold"></span>
               </div>
@@ -477,7 +477,7 @@
               <div class="swiper-slide">
                 <div class="rounded-xl overflow-hidden bg-white border border-slate-100 shadow-sm p-4 flex flex-col">
                   <div class="flex justify-between items-center mb-3">
-                    <span class="bg-[#114687] text-white px-4 py-1 text-xs font-bold rounded">2025</span>
+                    <span class="bg-[#114687] text-white px-4 py-1 text-xs font-bold rounded">2026</span>
                     <span class="text-[10px] text-prestige-gold font-bold">CENTENARY</span>
                   </div>
                   <div class="w-full h-44 rounded overflow-hidden mb-3">
@@ -731,7 +731,7 @@
             ATTEND THE<br /><span class="text-luxury-gold">GALA DINNER</span>
           </h2>
           <p class="fade-up-item font-sans text-xs sm:text-sm text-white/55 leading-relaxed font-light mb-10">
-            Secure your place at the NITA @ 100 Centenary Gala Dinner on 30th October 2025 at Safari Park Hotel, Nairobi. An evening of celebration, recognition, and Kenyan pride.
+            Secure your place at the NITA @ 100 Centenary Gala Dinner on 30th October 2026 at Safari Park Hotel, Nairobi. An evening of celebration, recognition, and Kenyan pride.
           </p>
 
           <!-- Evening highlights (GGMC Execution Model) -->
@@ -777,7 +777,7 @@
           <!-- Glass Register Form container -->
           <div class="w-full max-w-[480px] rounded-2xl glass-premium p-6 sm:p-8 shadow-2xl relative z-10 border border-white/[0.08]">
             <span class="font-sans text-[9px] font-bold tracking-[0.3em] text-luxury-gold block mb-2 uppercase text-center">
-              GALA DINNER — 30TH OCTOBER 2025
+              GALA DINNER — 30TH OCTOBER 2026
             </span>
             <span class="font-sans text-[8px] text-white/40 block mb-6 text-center tracking-wider">
               📍 Safari Park Hotel, Nairobi
@@ -951,7 +951,7 @@
       <div class="container mx-auto px-6 lg:px-14 z-10 text-center flex flex-col items-center justify-center max-w-4xl relative">
         
         <span class="font-sans text-[10px] md:text-[11px] font-bold tracking-[0.45em] text-luxury-gold uppercase mb-4 block animate-pulse">
-          30TH OCTOBER 2025 · SAFARI PARK HOTEL · NAIROBI
+          30TH OCTOBER 2026 · SAFARI PARK HOTEL · NAIROBI
         </span>
 
         <h2 class="text-3xl sm:text-5xl md:text-[62px] font-bodoni font-bold text-white tracking-tight uppercase leading-[1.1] mb-5">

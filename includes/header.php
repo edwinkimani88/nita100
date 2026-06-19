@@ -21,7 +21,7 @@
               NITA<span class="text-prestige-gold">@</span>100
             </span>
             <span class="font-sans text-[8px] tracking-[0.25em] text-luxury-gold mt-1 uppercase font-semibold">
-              1925 — 2025
+              1925 — 2026
             </span>
           </div>
         </a>
