@@ -11,10 +11,14 @@
         <!-- Column 1: Info and Social credentials -->
         <div class="lg:col-span-4 flex flex-col">
           <!-- Logo -->
-          <div class="flex items-center gap-2 select-none mb-6">
-            <span class="font-bodoni text-xl font-bold tracking-widest text-white leading-none">
-              NITA<span class="text-prestige-gold">@</span>100
-            </span>
+          <div class="flex items-center gap-3 select-none mb-6">
+            <img src="assets/Nita Logo.png" alt="NITA Official Logo" class="h-10 w-auto object-contain" />
+            <div class="flex flex-col">
+              <span class="font-bodoni text-lg font-bold tracking-widest text-white leading-none">
+                NITA<span class="text-prestige-gold">@</span>100
+              </span>
+              <span class="font-sans text-[8px] tracking-[0.2em] text-luxury-gold uppercase font-semibold">1925 — 2026</span>
+            </div>
           </div>
           <p class="font-sans text-xs text-white/45 max-w-xs leading-relaxed font-light mb-8">
             Providing century-level validation benchmarks, standard directories, regulatory protective policies, and elite vocational programs to factory sectors of Africa.

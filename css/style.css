@@ -7,10 +7,10 @@
   --color-deep-bg: #FAFAFA;
   --color-dark-navy: #091A37;
 
-  --font-bodoni: "Bodoni Moda", "Cormorant Garamond", serif;
+  --font-bodoni: "Montserrat", ui-sans-serif, system-ui, sans-serif;
   --font-cormorant: "Pinyon Script", "Great Vibes", cursive;
-  --font-sans: "Montserrat", "Inter", sans-serif;
-  --font-display: "Syncopate", "Orbitron", "Space Grotesk", sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", "Syncopate", "Orbitron", "Space Grotesk", sans-serif;
 }
 
 @keyframes glowPulse {

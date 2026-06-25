@@ -47,8 +47,7 @@
 
           <h1
             id="hero-reveal-title"
-            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-extrabold tracking-tight text-white leading-[1.08] uppercase mb-4"
-            style="font-family: 'Times New Roman', Times, serif;"
+            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bodoni font-extrabold tracking-tight text-white leading-[1.08] uppercase mb-4"
           >
             A CENTURY OF<br />
             INDUSTRIAL<br />
@@ -156,10 +155,10 @@
                   <!-- NITA At-sign circle loop -->
                   <circle id="circle-at" class="loop-at draw-stroke" cx="134" cy="48" r="6.5" fill="none" stroke="#B8141F" stroke-width="1.25" style="opacity: 0;" />
                 </g>
-                <text id="text-symbol-at" class="text-at font-sans" x="134" y="50.5" font-size="6.5" font-weight="900" fill="#B8141F" text-anchor="middle" style="opacity: 0;">@</text>
+                <text id="text-symbol-at" class="text-at" x="134" y="50.5" font-size="6.5" font-weight="900" fill="#B8141F" text-anchor="middle" font-family="Montserrat, ui-sans-serif, sans-serif" style="opacity: 0;">@</text>
 
                 <!-- LAYER 2: THE CENTENARY YEAR LABEL (1926-2026) AND "YEARS" -->
-                <text id="nita-years-subtitle" x="96" y="88" font-size="9.5" font-family="var(--font-bodoni)" letter-spacing="4.5" fill="#FFFFFF" text-anchor="middle" font-weight="700" style="opacity: 0;">YEARS</text>
+                <text id="nita-years-subtitle" x="96" y="88" font-size="9.5" font-family="Montserrat, ui-sans-serif, sans-serif" letter-spacing="4.5" fill="#FFFFFF" text-anchor="middle" font-weight="700" style="opacity: 0;">YEARS</text>
 
                 <!-- LAYER 3: NUMERICS - THE MASSIVE "1" AND TWO INTERLOCKING ZEROES -->
                 <!-- Number "1" (rising from bottom) -->
@@ -175,7 +174,7 @@
                 <path class="interlock-overlay" d="M 113,124 A 23,23 0 0,1 119,141" fill="none" stroke="url(#luxury-silver-grad)" stroke-width="7" style="opacity: 0;" />
 
                 <!-- LAYER 4: BOTTOM TIMESTAMP -->
-                <text id="nita-years-label" x="96" y="189" font-size="10" font-family="var(--font-sans)" letter-spacing="3.5" fill="#D5C2A2" font-weight="500" text-anchor="middle" style="opacity: 0;">1925 - 2026</text>
+                <text id="nita-years-label" x="96" y="189" font-size="10" font-family="Montserrat, Inter, ui-sans-serif, sans-serif" letter-spacing="3.5" fill="#D5C2A2" font-weight="500" text-anchor="middle" style="opacity: 0;">1925 - 2026</text>
 
                 <!-- Dynamic Highlight sweeps traversing over the lock -->
                 <g clip-path="url(#shine-clip-mask)">
@@ -391,11 +390,11 @@
               </div>
               <div class="rounded-xl overflow-hidden bg-white border border-slate-100 shadow-md hover:shadow-xl transition-all duration-500 group">
                 <div class="w-full h-[240px] bg-slate-900 overflow-hidden relative">
-                  <img src="assets/images/kenyan_gala_dinner.jpg" alt="NITA @ 100 Centenary Gala" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                  <img src="assets/images/kenyan_gala_dinner.jpg" alt="NITA Centenary Gala" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                 </div>
                 <div class="p-6">
-                  <h4 class="font-bodoni font-bold text-base text-slate-900 mb-2 group-hover:text-prestige-gold transition-colors uppercase">
-                    NITA @ 100
+                  <h4 class="font-bodoni font-bold text-base text-slate-900 mb-2 group-hover:text-prestige-gold transition-colors uppercase flex items-center gap-2">
+                    <img src="assets/Nita Logo.png" alt="NITA Logo" class="h-5 w-auto object-contain inline-block" /> 100
                   </h4>
                   <p class="font-sans text-xs text-slate-500 leading-relaxed font-light">
                     We celebrate 100 years of Kenya's industrial workforce — and honour the electricians, mechanics, welders, and technicians who shaped our nation.
@@ -485,7 +484,7 @@
                   <div class="w-full h-44 rounded overflow-hidden mb-3">
                     <img src="assets/images/kenyan_trophy.jpg" alt="NITA centenary" class="w-full h-full object-cover" />
                   </div>
-                  <h4 class="font-bodoni font-bold text-base text-slate-900 uppercase">NITA @ 100</h4>
+                  <h4 class="font-bodoni font-bold text-base text-slate-900 uppercase flex items-center gap-2"><img src="assets/Nita Logo.png" alt="NITA Logo" class="h-5 w-auto object-contain inline-block" /> 100</h4>
                   <p class="font-sans text-xs text-slate-500 mt-2 font-light">We celebrate 100 years of Kenyan workmanship — and gather at Safari Park to honour those who made it possible.</p>
                 </div>
               </div>
@@ -733,7 +732,7 @@
             ATTEND THE<br /><span class="text-luxury-gold">GALA DINNER</span>
           </h2>
           <p class="fade-up-item font-sans text-xs sm:text-sm text-white/55 leading-relaxed font-light mb-10">
-            Secure your place at the NITA @ 100 Centenary Gala Dinner on 30th October 2026 at Safari Park Hotel, Nairobi. An evening of celebration, recognition, and Kenyan pride.
+            Secure your place at the <img src="assets/Nita Logo.png" alt="NITA Logo" class="h-4 w-auto object-contain inline-block align-middle" /> 100 Centenary Gala Dinner on 30th October 2026 at Safari Park Hotel, Nairobi. An evening of celebration, recognition, and Kenyan pride.
           </p>
 
           <!-- Evening highlights (GGMC Execution Model) -->
@@ -844,8 +843,8 @@
                   RESERVE MY SEAT &rarr;
                 </button>
 
-              <p class="font-sans text-[9px] text-white/30 text-center leading-relaxed mt-2 uppercase tracking-wide">
-                Your details will be used solely to confirm your attendance at the NITA @ 100 Gala Dinner.
+              <p class="font-sans text-[9px] text-white/30 text-center leading-relaxed mt-2 uppercase tracking-wide flex items-center justify-center gap-1 flex-wrap">
+                Your details will be used solely to confirm your attendance at the <img src="assets/Nita Logo.png" alt="NITA Logo" class="h-3 w-auto object-contain inline-block" /> 100 Gala Dinner.
               </p>
             </form>
           </div>

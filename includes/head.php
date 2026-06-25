@@ -11,7 +11,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&family=Great+Vibes&family=Syncopate:wght@400;700&family=Orbitron:wght@400..900&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&family=Great+Vibes&family=Syncopate:wght@400;700&family=Orbitron:wght@400..900&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Tailwind CSS v3 CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -28,10 +28,10 @@
               'accent-gold':  '#FFD700',
             },
             fontFamily: {
-              'bodoni':    ['"Bodoni Moda"', '"Cormorant Garamond"', 'serif'],
+              'bodoni':    ['Montserrat', 'ui-sans-serif', 'system-ui', 'sans-serif'],
               'cormorant': ['"Pinyon Script"', '"Great Vibes"', 'cursive'],
-              'sans':      ['Montserrat', 'Inter', 'sans-serif'],
-              'display':   ['Syncopate', 'Orbitron', '"Space Grotesk"', 'sans-serif'],
+              'sans':      ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+              'display':   ['Montserrat', 'Syncopate', 'Orbitron', '"Space Grotesk"', 'sans-serif'],
             },
             zIndex: {
               '25': '25',
